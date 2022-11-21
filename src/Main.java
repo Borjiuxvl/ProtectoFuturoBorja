@@ -11,7 +11,7 @@ public class Main {
 
     }
 
-    public static String veredicto(String valor1, String valor2) {
+    private static String veredicto(String valor1, String valor2) {
         if(Integer.parseInt(valor1) > Integer.parseInt(valor2)) {
             return "Poco tiempo de estudio. Debes dedicar más tiempo.";
         } else if (Integer.parseInt(valor1) == Integer.parseInt(valor2)) {
